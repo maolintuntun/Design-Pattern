@@ -3,7 +3,7 @@
 public class SingleTonA {
 	//静态私有的成员变量
 	
-	//因为是饿汉式的 所以直接创建对象 饿汉式的好处是系统加载类时候直接创建的，所以需要使用时直接调用
+	//因为是饿汉式的 所以直接创建对象 饿汉式的好处是系统加载类时候直接创建的，所以需要使用时直接调用方法即可 很简单
 	// getInstance 方法即可，非常简单。
    private static SingleTonA singleTonA = new SingleTonA();
    
