@@ -6,7 +6,7 @@ public class KFC implements IStore{
 	public IChips getChips() {
 		// TODO Auto-generated method stub
 		System.out.println("肯德基生产了薯条啦");
-		return null;
+		return new KFCChips();
 	}
 
 }

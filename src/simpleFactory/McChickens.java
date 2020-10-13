@@ -1,5 +1,6 @@
 package simpleFactory;
 
+//Õ¨ÂóÏã¼¦
 public class McChickens implements IFood {
 
 	@Override
